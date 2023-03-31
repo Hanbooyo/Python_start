@@ -11,3 +11,6 @@ s = "Hello"
 sList = list(set(s))
 print(newList)
 print(sList)
+
+# add, 여러개는 update를 이용해 추가 (중복되는것은 자동으로 걸러짐)
+# remove 로 원소삭제
