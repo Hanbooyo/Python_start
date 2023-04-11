@@ -1,5 +1,9 @@
 #딕셔너리 (Java 의 HashMap과 비슷함)
 
+# 딕셔너리 규칙
+# 딕셔너리의 키는 수정이 불가능한 타입만 가능.
+# 숫자, 문자열, 튜플 등
+
 #딕셔너리 이름 = { 키1:값1, 키2:값2 ....}
 capitals = { "Korea": "Seoul", "USA": "Washington", "UK": "London"}
 
