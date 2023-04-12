@@ -1,0 +1,14 @@
+import pandas as pd
+
+data = {'Name':['Kim','Park','Lee','Choi'], 'Age' : [20,23,21,26]} # key값이 colum value는  value값으로
+
+df = pd.DataFrame(data)
+
+print(df)
+
+
+data = {'Name':['Kim','Park','Lee','Choi'], 'Age' : [20,23,21,26]} # key값이 colum value는  value값으로
+
+df = pd.DataFrame(data, index=['학번 1', '학번 2', '학번 3', '학번 4']) # 인덱스 네이밍
+
+print(df)
